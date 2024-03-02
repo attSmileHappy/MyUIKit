@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var myButton: UIButton!
     
     override func viewDidLoad() {
-        super.viewDidLoad() // 스토리보드의 있는 요소들을 다 그렸다는 호출 함수
-        view.backgroundColor = .blue //SwiftUI의 Color와는 타입이 다름 "UIColor"임
+        super.viewDidLoad() // 스토리보드에 있는 요소들을 다 그렸다는 호출 함수
+        view.backgroundColor = .white //SwiftUI의 Color와는 타입이 다름 "UIColor"임
     }
 
     @IBAction func touchMyButton(_ sender: Any) {
