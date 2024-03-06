@@ -9,21 +9,17 @@ import UIKit
 
 class BlueViewController: UIViewController {
 
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var friend: UILabel!
+    
+    var inputName : String = ""
+    var friendsB : [People] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let friendsNames = friendsB.map{$0.name}
+        let friendList = friendsNames.joined(separator: "\n")
+        name.text = inputName
+        friend.text = friendList
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

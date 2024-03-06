@@ -19,6 +19,8 @@
 		3B6AB3FA2B9626F300B5FA1F /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AB3F72B9626F200B5FA1F /* MyTableViewController.swift */; };
 		3B6AB3FB2B9626F300B5FA1F /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AB3F82B9626F200B5FA1F /* MyViewController.swift */; };
 		3B6AB3FC2B9626F300B5FA1F /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AB3F92B9626F200B5FA1F /* TodoViewController.swift */; };
+		3B6AB3FE2B98110000B5FA1F /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AB3FD2B98110000B5FA1F /* BlueViewController.swift */; };
+		3B6AB4002B98111A00B5FA1F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AB3FF2B98111A00B5FA1F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		3B6AB3F72B9626F200B5FA1F /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		3B6AB3F82B9626F200B5FA1F /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		3B6AB3F92B9626F200B5FA1F /* TodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		3B6AB3FD2B98110000B5FA1F /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		3B6AB3FF2B98111A00B5FA1F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				3B22DDA92B90DEB80057F0CE /* Assets.xcassets */,
 				3B22DDAB2B90DEB80057F0CE /* LaunchScreen.storyboard */,
 				3B22DDAE2B90DEB80057F0CE /* Info.plist */,
+				3B6AB3FD2B98110000B5FA1F /* BlueViewController.swift */,
+				3B6AB3FF2B98111A00B5FA1F /* HomeViewController.swift */,
 			);
 			path = MyUIKit;
 			sourceTree = "<group>";
@@ -270,9 +276,11 @@
 				3B22DDA52B90DEB40057F0CE /* ViewController.swift in Sources */,
 				3B22DDA12B90DEB40057F0CE /* AppDelegate.swift in Sources */,
 				3B22DDA32B90DEB40057F0CE /* SceneDelegate.swift in Sources */,
+				3B6AB4002B98111A00B5FA1F /* HomeViewController.swift in Sources */,
 				3B6AB3FB2B9626F300B5FA1F /* MyViewController.swift in Sources */,
 				3B6AB3FC2B9626F300B5FA1F /* TodoViewController.swift in Sources */,
 				3B6AB3FA2B9626F300B5FA1F /* MyTableViewController.swift in Sources */,
+				3B6AB3FE2B98110000B5FA1F /* BlueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
